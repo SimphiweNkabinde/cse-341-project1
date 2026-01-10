@@ -2,7 +2,7 @@
   "name": "cse-341-project1",
   "version": "1.0.0",
   "description": "This project will provide an API for storing and retrieving information about contacts",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SimphiweNkabinde/cse-341-project1/issues"
   },
-  "homepage": "https://github.com/SimphiweNkabinde/cse-341-project1#readme"
+  "homepage": "https://github.com/SimphiweNkabinde/cse-341-project1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
