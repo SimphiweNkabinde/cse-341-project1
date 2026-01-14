@@ -42,6 +42,23 @@
             "description": "OK"
           }
         }
+      },
+      "post": {
+        "description": "",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "201": {
+            "description": "contact created successfully"
+          },
+          "500": {
+            "description": "Server failure."
+          }
+        }
       }
     },
     "/contacts/{id}": {
