@@ -5,8 +5,10 @@ const doc = {
     title: "Contacts API",
     description: "Description",
   },
-  host: "localhost:3000",
 };
+
+// host and schemes can be omitted for a more dynamic association. (ommit in swagger.json)
+// https://swagger.io/docs/specification/v2_0/api-host-and-base-path/
 
 const outputFile = "./swagger.json";
 const routes = ["./routes/index.js"];

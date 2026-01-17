@@ -1,16 +1,37 @@
-// LOCALHOST
 
-# Get all contacts
-GET http://localhost:3000/contacts
+# localhost = http://localhost:3000
+# production = https://cse-341-project1-dkbq.onrender.com
+@baseUrl = http://localhost:3000
 
-# Get contact by id
-GET http://localhost:3000/contacts/6962d3c91077c8da7fffb4d7
+### Get all contacts
+GET {{baseUrl}}/contacts
 
+### Get contact by id
+GET {{baseUrl}}/contacts/6962d3c91077c8da7fffb4d7
 
-// PRODUCTION
+### Create contact
+POST {{baseUrl}}/contacts
+Content-Type: application/json
 
-# Get all contacts
-GET https://cse-341-project1-dkbq.onrender.com/contacts
+{
+  "firstName": "Ming",
+  "lastName": "Mong.",
+  "email": "ming@email.com",
+  "favoriteColor": "green",
+  "birthday": "06/19/2000"
+}
 
-# Get contact by id
-GET http://localhost:3000/contacts/6962d3c91077c8da7fffb4d7
+### update contact
+PUT {{baseUrl}}/contacts/696c0b653d0501ed47417e07
+Content-Type: application/json
+
+{
+  "firstName": "Ding",
+  "lastName": "Dong",
+  "email": "alostro@email.com",
+  "favoriteColor": "grey",
+  "birthday": "06/19/2000"
+}
+
+### Delete contact by id
+DELETE {{baseUrl}}/contacts/696c0b653d0501ed47417e07
