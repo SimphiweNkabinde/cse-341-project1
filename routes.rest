@@ -1,7 +1,7 @@
 
 # localhost = http://localhost:3000
 # production = https://cse-341-project1-dkbq.onrender.com
-@baseUrl = http://localhost:3000
+@baseUrl = https://cse-341-project1-dkbq.onrender.com
 
 ### Get all contacts
 GET {{baseUrl}}/contacts

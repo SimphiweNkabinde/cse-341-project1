@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use("/", require("./routes/index"));
+app.use("/api-docs", require("./routes/swagger"));
 
 mongodb.initDb((err) => {
   if (err) {

@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Contacts API",
-    "description": "Description",
+    "description": "API for storing, retrieving, and modifying contact information",
     "version": "1.0.0"
   },
   "basePath": "/",
@@ -13,16 +13,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
           }
         }
       }

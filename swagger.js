@@ -3,7 +3,8 @@ const swaggerAutogen = require("swagger-autogen")();
 const doc = {
   info: {
     title: "Contacts API",
-    description: "Description",
+    description:
+      "API for storing, retrieving, and modifying contact information",
   },
 };
 
